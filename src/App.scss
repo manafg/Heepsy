@@ -1,0 +1,12 @@
+@import "./styles/list.scss";
+.App{
+  background: #E5E5E5;
+  .mainListItem {
+    @include listItem;
+  }
+
+  .productItem{
+    @include productListItem
+  }
+  
+}

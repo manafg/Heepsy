@@ -1,0 +1,64 @@
+@import "./colors.scss";
+
+@mixin listItem {
+    background-color: $them ;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding-top:0px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    .left {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+    .col-custom {
+        padding-right: 0px;
+    }
+    .image {
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        float: right;
+        height: 98px;
+        width: 100%;
+    }
+
+}
+
+@mixin productListItem {
+    background-color: $them ;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding-top:0px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    .left {
+        text-align: left;
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .col-custom {
+        padding-left: 0px;
+    }
+    .icon-wraper {
+        position: absolute;
+    height: 30px;
+    width: 30px;
+    right: -4px;
+    bottom: 6px;
+    background-color: #ffff;
+    text-align: center;
+    border-radius: 50px;
+    }
+    .image {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        float: left;
+        height: 98px;
+        width: 100%;
+    }
+
+}
